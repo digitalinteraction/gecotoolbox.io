@@ -1,0 +1,19 @@
+{
+  "preset": {
+    "name": "robb-j:node",
+    "version": "0.1.6"
+  },
+  "plugins": {
+    "npm": "0.1.0",
+    "jest": "0.1.0",
+    "prettier": "0.1.0",
+    "eslint": "0.1.0"
+  },
+  "params": {
+    "npm": {
+      "packageName": "@openlab/geco-home-site",
+      "packageInfo": "Setup with puggle",
+      "repository": "digitalinteraction/geco-home-site"
+    }
+  }
+}

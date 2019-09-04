@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+{% include 'navbar.njk' %}
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        {{ content | safe }}
+      </div>
+      <hr />
+      <div class="buttons is-centered">
+        <a class="button is-info is-large" href="{{ site.requestUrl }}">
+          Request a deployment
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+{% include 'footer.njk' %}

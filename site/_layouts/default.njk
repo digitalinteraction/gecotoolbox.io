@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+{% include 'navbar.njk' %}
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        {{ content | safe }}
+      </div>
+    </div>
+  </section>
+</main>
+
+{% include 'footer.njk' %}

@@ -1,0 +1,105 @@
+//
+// From: https://openlab.ncl.ac.uk/gitlab/geco/requests-gui/blob/master/src/scss/common.scss
+//
+
+// Customise bulma by setting their variables first
+// -> see https://bulma.io/documentation/customize/variables/
+$primary: #296eb4;
+$info: #58a4b0;
+
+$popup: #e56399;
+
+$body-family: 'IBM Plex Sans', 'system-ui', -apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
+$family-monospace: 'SF Mono', Consolas, 'Liberation Mono', Menlo, Courier,
+  monospace;
+
+$title-family: 'Dosis', $body-family;
+$subtitle-family: $title-family;
+$title-weight: 700;
+
+$button-family: $title-family;
+$button-weight: 700;
+
+$radius: 6px;
+$radius-large: 12px;
+
+@import 'bulma/bulma.sass';
+
+//
+// From: https://openlab.ncl.ac.uk/gitlab/geco/requests-gui/blob/master/src/components/PrimaryNavigation.vue
+//
+.navbar .navbar-item {
+  font-family: $title-family;
+  font-size: 1.5em;
+  .geco {
+    font-weight: 700;
+  }
+  .toolbox {
+    font-weight: 400;
+  }
+}
+
+.fill-viewport-vertically {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  > * {
+    flex: 1;
+  }
+
+  > *:first-child {
+    flex: 0;
+  }
+
+  > *:last-child {
+    flex: 0;
+  }
+}
+
+//
+// From: https://openlab.ncl.ac.uk/gitlab/geco/requests-gui/blob/master/src/components/SiteFooter.vue
+//
+
+.footer {
+  p {
+    margin-bottom: 0.5em;
+  }
+
+  .links {
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+    overflow-x: auto;
+  }
+
+  .links > *:not(:last-child) {
+    padding-right: 0.75em;
+    margin-right: 0.75em;
+    border-right: 1px solid $grey;
+  }
+
+  a {
+    color: $grey-darker;
+    font-weight: 600;
+    text-decoration: underline $border;
+  }
+
+  .version {
+    user-select: all;
+    color: $grey;
+  }
+}
+
+.content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $title-family;
+    font-weight: $title-weight;
+  }
+}

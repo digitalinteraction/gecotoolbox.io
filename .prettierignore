@@ -1,0 +1,9 @@
+#
+# Files for prettier to ignore
+#
+
+node_modules
+coverage
+*.env
+.DS_Store
+dist

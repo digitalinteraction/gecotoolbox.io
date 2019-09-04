@@ -1,0 +1,53 @@
+{
+  "name": "@openlab/geco-home-site",
+  "description": "Setup with puggle",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "digitalinteraction/geco-home-site",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "serve": "eleventy --serve",
+    "build": "eleventy",
+    "lint": "eslint src",
+    "prettier": "prettier --write '**/*.{js,json,css,md,ts,tsx}'",
+    "preversion": "npm run test -s"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "bulma": "^0.7.5",
+    "sass": "^1.22.10"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.16.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "main": "src/index.js"
+}
