@@ -15,4 +15,4 @@ deploy:
     - NODE_ENV=production npm ci
     - npm run build
     - tar -zcvf archive.tar.gz -C dist .
-    - 'curl --header "Authorization: Bearer $DEPLOY_KEY" --form archive=@archive.tar.gz $DEPLOY_URL'
+    - 'curl --silent --header "Authorization: Bearer $DEPLOY_KEY" --form archive=@archive.tar.gz $DEPLOY_URL'
