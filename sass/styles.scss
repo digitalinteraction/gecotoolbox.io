@@ -117,6 +117,10 @@ $radius-large: 12px;
   img {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   }
+
+  @include touch {
+    min-height: 0;
+  }
 }
 
 .no-bottom-padding {
