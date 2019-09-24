@@ -4,10 +4,44 @@ layout: default
 
 # About
 
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+The gE.CO toolbox is a platform for empowering commons organisations accross Europe.
+Commons organisations are formal groups or informal communities of citizens
+who manage fab-lab, hubs, incubators, co-creation spaces or social centres created in regenerated urban voids.
 
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor.
+The toolbox is part of an EU Horizons 2020 research and innovation programme (grant agreement No. 822766).
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna.
+The aim of the toolbox is to deploy [open-source](https://opensource.com/resources/what-open-source)
+software for commons organisation to help them in the management and organisation of their spaces.
 
-Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.
+## The platform
+
+The toolbox is made up of two parts.
+The first is a system for requesting a geco deployment,
+it guides you through making your request and constructing your deployment.
+We then have a review process to decide which deployments get the green light
+and then we can start up servers to deploy the software.
+
+We also provide [rich documentation](https://docs.gecotoolbox.io) for deployments and the platform as a whole.
+We want to be as open as possible, so we don't hide anything.
+The documentation for using the platform is alongside our documentation for administering it.
+
+## Deployments
+
+The second part of the system is the deployments themselves.
+We thing the most important tools to deploy would be those that
+
+- Help make decisions
+- Publish information
+- Share files
+
+So we chose [Loomio](https://www.loomio.org/),
+[NextCloud](https://nextcloud.com/)
+and [Wiki.js](https://wiki.js.org/) as the tools we deploy.
+We feel these cover those goals well, even if there is a bit of overlap between the tools.
+
+To brings the tools together we also provide a common dashboard to quickly navigate between the services in a deployment.
+And we also add a custom button inside each service to quickly jump back home.
+
+## Who are we?
+
+We are [Open Lab](https://openlab.ncl.ac.uk), a world leading Ubiquitous Computing and HCI research group based at Newcastle University.

@@ -1,13 +1,20 @@
 ---
 layout: home
+title: gE.CO toolbox
+subtitle: Bringing technology to the commons!
 ---
 
-# gE.CO toolbox!
+{% coverImage 'https://source.unsplash.com/user/maxa/QC1oHW5JVu4/1600x900' %}
 
-> <span class="is-size-3">Coming soon</span>
+We're building a platform to empower commons organisations.
 
-Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+Say you run a group that has taken oven an abandoned space,
+or teaching ad-hoc classes in an unused classroom.
+Maybe you're having trouble scaling your efforts, or getting your message out.
+We're here to help you.
 
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+We've put together a stack of technologies to help these kinds of groups
+in their daily management and organisations.
 
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.
+The gE.CO toolbox is part of the EU horizons 2020 programme
+and is developed by [Open Lab](https://openlab.ncl.ac.uk).

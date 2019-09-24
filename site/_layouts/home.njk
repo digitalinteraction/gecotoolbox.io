@@ -5,15 +5,30 @@ layout: base
 {% include 'navbar.njk' %}
 
 <main>
-  <section class="section">
+  <div class="hero">
+    <div class="hero-body no-bottom-padding">
+      <div class="container has-text-centered">
+        <h1 class="title is-1">{{ title }}</h1>
+        <h2 class="subtitle is-4">{{ subtitle }}</h2>
+      </div>
+    </div>
+  </div>
+
+  <section class="section is-size-5">
     <div class="container">
       <div class="content">
         {{ content | safe }}
       </div>
-      <hr />
+    </div>
+  </section>
+  <section class="section is-size-5">
+    <div class="container">
       <div class="buttons is-centered">
         <a class="button is-info is-large" href="{{ site.requestUrl }}">
           Request a deployment
+        </a>
+        <a class="button is-text is-large" href="{{ '/about' | url }}">
+          Find out more →
         </a>
       </div>
     </div>

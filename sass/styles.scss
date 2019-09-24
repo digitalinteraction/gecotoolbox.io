@@ -9,6 +9,9 @@ $info: #58a4b0;
 
 $popup: #e56399;
 
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
 $body-family: 'IBM Plex Sans', 'system-ui', -apple-system, BlinkMacSystemFont,
   'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
   'Segoe UI Emoji', 'Segoe UI Symbol';
@@ -102,4 +105,28 @@ $radius-large: 12px;
     font-family: $title-family;
     font-weight: $title-weight;
   }
+}
+
+.cover-image {
+  $height: ($desktop - (2 * $gap)) / 1.2;
+
+  max-width: $height;
+  min-height: $height * 0.5625;
+  margin: 0 auto 2em;
+
+  img {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
+.engage-button {
+  padding: 2.5rem 0;
+}
+
+p + .engage-button {
+  padding-top: 1.5rem;
 }

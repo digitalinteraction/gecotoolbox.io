@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# Terms and conditions
+# Privacy policy
+
+> Work on progress
 
 Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
