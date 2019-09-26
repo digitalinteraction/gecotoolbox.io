@@ -8,7 +8,7 @@ subtitle: Bringing technology to the commons!
 
 We're building a platform to empower commons organisations.
 
-Say you run a group that has taken oven an abandoned space,
+Say you run a group that has taken over an abandoned space,
 or teaching ad-hoc classes in an unused classroom.
 Maybe you're having trouble scaling your efforts, or getting your message out.
 We're here to help you.

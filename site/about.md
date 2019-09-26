@@ -28,7 +28,7 @@ The documentation for using the platform is alongside our documentation for admi
 ## Deployments
 
 The second part of the system is the deployments themselves.
-We thing the most important tools to deploy would be those that
+We think the most important tools to deploy would be those that
 
 - Help make decisions
 - Publish information
