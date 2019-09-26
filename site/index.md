@@ -4,7 +4,7 @@ title: gE.CO toolbox
 subtitle: Bringing technology to the commons!
 ---
 
-{% coverImage 'https://source.unsplash.com/user/maxa/QC1oHW5JVu4/1600x900' %}
+{% coverImage '/static/cover.jpg' %}
 
 We're building a platform to empower commons organisations.
 
