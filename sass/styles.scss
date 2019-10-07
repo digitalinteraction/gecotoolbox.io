@@ -28,12 +28,14 @@ $button-weight: 700;
 $radius: 6px;
 $radius-large: 12px;
 
+$navbar-breakpoint: 0;
+
 @import 'bulma/bulma.sass';
 
 //
 // From: https://openlab.ncl.ac.uk/gitlab/geco/requests-gui/blob/master/src/components/PrimaryNavigation.vue
 //
-.navbar .navbar-item {
+.navbar .navbar-brand .navbar-item {
   font-family: $title-family;
   font-size: 1.5em;
   .geco {
@@ -133,4 +135,10 @@ $radius-large: 12px;
 
 p + .engage-button {
   padding-top: 1.5rem;
+}
+
+@include touch {
+  .navbar .container {
+    padding: 0 0.5rem;
+  }
 }

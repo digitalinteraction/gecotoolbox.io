@@ -1,11 +1,23 @@
 <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
   <div class="container">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="{{ '/' | url }}">
-        <span class="geco">gE.CO</span>
-        &nbsp;
-        <span class="toolbox">toolbox</span>
-      </a>
+    <div class="navbar-menu">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="{{ '/' | url }}">
+          <span class="geco">gE.CO</span>
+          &nbsp;
+          <span class="toolbox">toolbox</span>
+        </a>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">🇬🇧 English</a>
+          <div class="navbar-dropdown is-right">
+            <a class="navbar-item" href="#">🇬🇧 English</a>
+            <hr class="navbar-divider" />
+            <div class="navbar-item">Coming soon</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </nav>

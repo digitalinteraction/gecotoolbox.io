@@ -6,15 +6,12 @@ subtitle: Bringing technology to the commons!
 
 {% coverImage '/static/cover.jpg' %}
 
-We're building a platform to empower commons organisations.
+## Welcome to the gE.CO toolbox
 
-Say you run a group that has taken over an abandoned space,
-or teaching ad-hoc classes in an unused classroom.
-Maybe you're having trouble scaling your efforts, or getting your message out.
-We're here to help you.
+The gE.CO toolbox is a collection of software services that allow communities take advantage of free to use technologies. These technologies are usually difficult to setup. With the toolbox, we’ll handle the technical side, allowing you to get on with what’s important to you.
 
-We're putting together a stack of technologies to help these groups
-in their daily management and organisations.
+The toolbox is designed to be used by organisations in the commons.
+All of the software has been designed to help organisations carry out the tasks they currently struggle with.
 
 The gE.CO toolbox is part of the EU horizons 2020 programme
 and is developed by [Open Lab](https://openlab.ncl.ac.uk).

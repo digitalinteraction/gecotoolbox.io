@@ -1,48 +1,72 @@
 ---
-layout: default
+layout: about
 ---
 
 # About
 
-The gE.CO toolbox is a platform for empowering commons organisations accross Europe.
-Commons organisations are formal groups or informal communities of citizens
-who manage fab-lab, hubs, incubators, co-creation spaces or social centres created in regenerated urban voids.
+The toolbox is a collection of online services that allow communities take advantage of free to use technologies.
+It has been designed to help commons organisations carry out the tasks they currently struggle with.
 
-The toolbox is part of an EU Horizons 2020 research and innovation programme (grant agreement No. 822766).
+All of the technologies are open source, which means that that have been publicly developed by communities to help other communities.
+The toolbox packages this software, which often needs to be set up individually, into a service called the 'gE.CO toolbox'.
+All of the individuals in an organisation can be invited to your group’s own toolbox,
+allowing you to use all of the software services together.
+The technologies are provided for free, and you can retain the information generated through the technologies and will remain completely private.
 
-The aim of the toolbox is to deploy [open-source](https://opensource.com/resources/what-open-source)
-software for commons organisation to help them in the management and organisation of their spaces.
+If you think that the gE.CO toolbox could be useful to you or your organisation, please follow the instructions below.
 
-## The platform
+## The services
 
-The toolbox is made up of two parts.
-The first is a system for requesting a gE.CO deployment,
-it guides you through making your request and configuring your deployment.
-We then have a review process to decide which deployments get the green light
-and then we can start up servers to deploy the software.
+The toolbox is a collection of open source software and services that have been brought together to help you with the tasks you regularly carry out. We have put together these tools based upon our experience of working with communities just like yours, but are always looking for suggestions on how we might improve the platform.
 
-We're also working on [rich documentation](https://docs.gecotoolbox.io) (work in progress)
-for deployments and the platform as a whole.
-We want to be as open as possible, so we don't hide anything.
-The documentation for using the platform is alongside our documentation for administering it.
+If you have any ideas about how we might improve the toolbox, such as by suggesting a service we might add, please get in touch at [support@gecotoolbox.io](mailto:support@gecotoolbox.io).
 
-## Deployments
+> Graphic to illustrate that the toolbox is a collection of services that are owned by the organisation
 
-The second part of the system is the deployments themselves.
-We think the most important tools to deploy would be those that
+### NextCloud: File sharing and collaboration
 
-- Help make decisions
-- Publish information
-- Share files
+NextCloud is a tool that helps organise groups through providing better ways of sharing files and digital content.
+For example, rather than sharing files through email or memory sticks, NextCloud allows everyone to work from the same folder at the same time.
+With NextCloud you can share documents, images and calendars which allows collaboration on documents.
 
-So we chose [Loomio](https://www.loomio.org/),
-[NextCloud](https://nextcloud.com/)
-and [Wiki.js](https://wiki.js.org/) to fulfill those needs.
-We feel these cover those goals well, even if there is a bit of overlap.
+There are over 200 'apps' that can be added to the platform to help you with tasks,
+so have a look at the extensions within your toolbox after you’ve signed up,
+allowing you to add things such as shared calenders.
 
-To brings the tools together we also provide a common dashboard to quickly navigate between the services in a deployment.
-And we also add a custom button inside each service to quickly jump and forth between services.
+> Graphic for File Sharing needed
 
-## Who are we?
+### Loomio: Decision Mmking tools
 
-We are [Open Lab](https://openlab.ncl.ac.uk), a world leading Ubiquitous Computing and HCI research group based at Newcastle University.
+Loomio helps communities take decisions better online with engaging methods for online discussion.
+The service allows people to discuss issues important to them,
+and take important decisions together.
+For example, the service could be used to be transparent about what was discussed at meetings,
+or to have discussions about a group’s mission.
+Loomio is effective at engaging new people in the group,
+so if you want to engage people who can not be there in person, Loomio is a great choice.
+
+> Graphic for online decision making needed
+
+### Wiki.js: Collectively make and share information
+
+Wiki.js allows a group of people to work together to produce content on specific issues.
+The software could be used within a group to share best practice or their knowledge about aspects of the organisation,
+or could be used more widely to engage new people in sharing their knowledge on issues.
+For example, you could set up a blog about your organisation's activities.
+
+> Graphic for sharing information needed
+
+---
+
+## Contact
+
+We’re constantly answering questions from organisations.
+If you have any that are not answered below, please get in touch by emailing [support@gecotoolbox.io](mailto:support@gecotoolbox.io).
+
+**Will I have to pay for the toolbox?**<br>
+The gE.CO toolbox is funded by an EU grant so we can provide the toolbox free to use. In the future, we may no longer be able to pay for the service. When this happens, we will provide you with all the content you have made within the services. If you want to continue using the services, we will provide you with instructions on how to set them up for yourself.
+
+**How do I join?**<br>
+If you are interested in using the toolbox, please follow the link below.
+You will be guided through the process of deciding which tools you would like to use
+and setting up your organisation.

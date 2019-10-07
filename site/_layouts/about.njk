@@ -1,0 +1,26 @@
+---
+layout: base
+---
+
+{% include 'navbar.njk' %}
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        {{ content | safe }}
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="buttons is-centered">
+        <a class="button is-info is-large" href="{{ site.requestUrl }}">
+          Register your interest
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+{% include 'footer.njk' %}
