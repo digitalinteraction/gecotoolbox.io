@@ -24,11 +24,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', md)
 
   eleventyConfig.addShortcode('coverImage', src => {
-    return `
-      <div class="cover-image">
-        <img src="${src}">
-      </div>
-    `
+    return `<div class="cover-image"><img src="${src}"></div>`
   })
 
   return {
