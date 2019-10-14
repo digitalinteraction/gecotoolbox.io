@@ -1,5 +1,6 @@
 ---
 layout: about
+action: Register your interest
 ---
 
 # About
@@ -58,7 +59,7 @@ For example, you could set up a blog about your organisation's activities.
 
 ---
 
-## Contact
+## FAQs
 
 We're constantly answering questions from organisations.
 If you have any that are not answered below, please get in touch by emailing [support@gecotoolbox.io](mailto:support@gecotoolbox.io).

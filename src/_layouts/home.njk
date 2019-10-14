@@ -1,5 +1,6 @@
 ---
 layout: base
+action: Find out more
 ---
 
 {% include 'navbar.njk' %}
@@ -24,8 +25,8 @@ layout: base
   <section class="section">
     <div class="container">
       <div class="buttons is-centered">
-        <a class="button is-text is-large" href="{{ '/about' | url }}">
-          Find out more →
+        <a class="button is-info is-large" href="{{ '/about' | localeUrl }}">
+          {{ action }} →
         </a>
       </div>
     </div>

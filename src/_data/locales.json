@@ -1,0 +1,18 @@
+{
+  "en": {
+    "name": "🇬🇧 English",
+    "slug": ""
+  },
+  "gr": {
+    "name": "🇬🇷 Ελληνικά",
+    "slug": "gr"
+  },
+  "es": {
+    "name": "🇪🇸 Española",
+    "slug": "es"
+  },
+  "it": {
+    "name": "🇮🇹 Italiana",
+    "slug": "it"
+  }
+}

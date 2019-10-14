@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar-menu">
       <div class="navbar-brand">
-        <a class="navbar-item" href="{{ '/' | url }}">
+        <a class="navbar-item" href="{{ '/' | localeUrl }}">
           <span class="geco">gE.CO</span>
           &nbsp;
           <span class="toolbox">toolbox</span>
@@ -10,11 +10,16 @@
       </div>
       <div class="navbar-end">
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">🇬🇧 English</a>
+          <a class="navbar-link" href="#">
+            {{ locales[locale].name }}
+          </a>
+
           <div class="navbar-dropdown is-right">
-            <a class="navbar-item" href="#">🇬🇧 English</a>
-            <hr class="navbar-divider" />
-            <div class="navbar-item">Coming soon</div>
+            {% for code in site.languages %}
+            <a class="navbar-item" href="{{ page.url | swapLocaleSlug(code) }}">
+              {{ locales[code].name }}
+            </a>
+            {% endfor %}
           </div>
         </div>
       </div>

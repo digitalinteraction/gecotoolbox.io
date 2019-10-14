@@ -27,9 +27,17 @@ module.exports = function(eleventyConfig) {
     return `<div class="cover-image"><img src="${src}"></div>`
   })
 
+  eleventyConfig.addFilter('localeUrl', function(url) {
+    return this.env.filters.url(`/${this.ctx.locale}/${url}`)
+  })
+
+  eleventyConfig.addFilter('swapLocaleSlug', function(url, newLocale) {
+    return url.replace('/' + this.ctx.locale, '/' + newLocale)
+  })
+
   return {
     dir: {
-      input: 'site',
+      input: 'src',
       output: 'dist',
       layouts: '_layouts'
     },
