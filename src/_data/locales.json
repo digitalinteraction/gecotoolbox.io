@@ -1,18 +1,17 @@
 {
   "en": {
-    "name": "🇬🇧 English",
-    "slug": ""
+    "name": "🇬🇧 English"
   },
   "gr": {
-    "name": "🇬🇷 Ελληνικά",
-    "slug": "gr"
+    "name": "🇬🇷 Ελληνικά"
   },
   "es": {
-    "name": "🇪🇸 Española",
-    "slug": "es"
+    "name": "🇪🇸 Español"
   },
   "it": {
-    "name": "🇮🇹 Italiana",
-    "slug": "it"
+    "name": "🇮🇹 Italiano"
+  },
+  "fr": {
+    "name": "🇫🇷 Français"
   }
 }

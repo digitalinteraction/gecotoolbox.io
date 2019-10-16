@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Toolbox gE.CO
+title: gE.CO toolbox
 subtitle: ¡Llevando la tecnología a los bienes comunes!
 action: Saber más
 ---
