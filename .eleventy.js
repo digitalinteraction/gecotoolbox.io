@@ -27,6 +27,12 @@ module.exports = function(eleventyConfig) {
     return `<div class="cover-image"><img src="${src}"></div>`
   })
 
+  eleventyConfig.addShortcode('bigButton', (href, text) => {
+    const button = `<a class="button is-info is-large" href="${href}">${text} →</a>`
+    const buttons = `<div class="buttons is-centered is-padded">${button}</div>`
+    return buttons
+  })
+
   eleventyConfig.addFilter('localeUrl', function(url) {
     return this.env.filters.url(`/${this.ctx.locale}/${url}`)
   })
@@ -41,6 +47,8 @@ module.exports = function(eleventyConfig) {
       output: 'dist',
       layouts: '_layouts'
     },
-    templateFormats: ['md', '11ty.js', 'njk']
+    templateFormats: ['md', '11ty.js', 'njk'],
+    markdownTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk'
   }
 }

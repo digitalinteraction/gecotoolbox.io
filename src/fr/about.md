@@ -42,6 +42,12 @@ Wiki.js permet à un collectif de travailler ensemble pour produire des contenus
 
 ---
 
+## S'inscrire
+
+... {wip}
+
+{% bigButton site.requestUrl, action %}
+
 ## Questions fréquentes
 
 Nous répondons constamment aux questions des collectifs. Si vous avez des questions auxquelles nous n’avons pas encore répondu, merci de nous contacter par e-mail:

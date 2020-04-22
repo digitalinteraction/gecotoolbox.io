@@ -15,3 +15,5 @@ La cassetta degli attrezzi è progettata per essere utilizzata dalle organizzazi
 
 La cassetta degli attrezzi gE.CO è parte del programma Horizon 2020 ed è sviluppata da
 [Open Lab](https://openlab.ncl.ac.uk).
+
+{% bigButton '/about' | localeUrl, action %}

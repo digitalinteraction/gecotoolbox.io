@@ -129,11 +129,11 @@ $navbar-breakpoint: 0;
   padding-bottom: 0;
 }
 
-.engage-button {
+.buttons.is-padded {
   padding: 2.5rem 0;
 }
 
-p + .engage-button {
+p + .buttons.is-padded {
   padding-top: 1.5rem;
 }
 

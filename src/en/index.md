@@ -16,3 +16,5 @@ All of the software has been designed to help organisations carry out the tasks 
 
 The gE.CO toolbox is part of the EU horizons 2020 programme
 and is developed by [Open Lab](https://openlab.ncl.ac.uk).
+
+{% bigButton '/about' | localeUrl, action %}

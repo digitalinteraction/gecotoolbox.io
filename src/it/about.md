@@ -42,6 +42,12 @@ Wiki.js permette a un gruppo di persone di lavorare insieme per produrre contenu
 
 ---
 
+## Iscriviti
+
+... {wip}
+
+{% bigButton site.requestUrl, action %}
+
 ## Domande frequenti
 
 Rispondiamo costantemente alle domande delle organizzazioni. Se ne hai una di cui non hai trovato la risposta, per favore contattaci via mail

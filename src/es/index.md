@@ -15,3 +15,5 @@ La caja de herramientas está diseñada para ser utilizada por organizaciones qu
 
 La caja de herramientas gE.CO forma parte del programa Horizon 2020 de la UE y está desarrollada por
 [Open Lab](https://openlab.ncl.ac.uk).
+
+{% bigButton '/about' | localeUrl, action %}

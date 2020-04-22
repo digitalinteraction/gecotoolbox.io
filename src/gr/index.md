@@ -18,3 +18,5 @@ action: Βρες περισσότερα
 
 Η εργαλειοθήκη του gE.CO είναι κομμάτι του ευρωπαϊκού προγράμματος Horizon 2020 και αναπτύχθηκε από το
 [Open Lab](https://openlab.ncl.ac.uk).
+
+{% bigButton '/about' | localeUrl, action %}

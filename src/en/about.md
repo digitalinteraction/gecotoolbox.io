@@ -59,6 +59,12 @@ For example, you could set up a blog about your organisation's activities.
 
 ---
 
+## Register
+
+... {wip}
+
+{% bigButton site.requestUrl, action %}
+
 ## FAQs
 
 We're constantly answering questions from organisations.

@@ -15,3 +15,5 @@ La boîte à outils a été créée pour être utilisée par des collectifs acti
 
 La boîte à outils gE.CO fait partie du programme UE Horizon 2020 et est développée par
 [Open Lab](https://openlab.ncl.ac.uk).
+
+{% bigButton '/about' | localeUrl, action %}
