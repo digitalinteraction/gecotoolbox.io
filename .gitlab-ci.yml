@@ -6,8 +6,6 @@ deploy:
   image:
     name: node:12-alpine
     entrypoint: ['']
-  tags:
-    - docker
   only:
     - master
   script:
