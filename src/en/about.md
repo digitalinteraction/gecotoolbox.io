@@ -1,6 +1,6 @@
 ---
 layout: about
-action: Register your interest
+action: Go to the tools
 ---
 
 # About
@@ -61,7 +61,10 @@ For example, you could set up a blog about your organisation's activities.
 
 ## Register
 
-... {wip}
+With the link below you can go to the shared toolbox and see the services that are setup there.
+Navigate to any of the services and you can see the public section of them.
+Create an account to sign in to the toolbox and you can use that account to sign in to all of the services.
+Use the orb to quickly navigate between the services or back home.
 
 {% bigButton site.requestUrl, action %}
 

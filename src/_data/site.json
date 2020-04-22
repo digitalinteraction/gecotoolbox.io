@@ -1,6 +1,6 @@
 {
   "title": "gE.CO toolbox",
-  "requestUrl": "https://requests.gecotoolbox.io/new",
+  "requestUrl": "https://beta.gecotoolbox.io",
   "languages": ["en", "fr", "es", "it", "gr"],
   "locale": "en"
 }
