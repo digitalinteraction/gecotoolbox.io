@@ -5,7 +5,7 @@ subtitle: ¡Llevando la tecnología a los bienes comunes!
 action: Saber más
 ---
 
-{% coverImage '/static/cover.jpg' %}
+{% coverImage '/static/cover-v2.jpg' %}
 
 ## Bienvenido a las herramientas de gE.CO
 

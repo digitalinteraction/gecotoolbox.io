@@ -1,6 +1,6 @@
 {
   "title": "gE.CO toolbox",
-  "requestUrl": "https://beta.gecotoolbox.io",
+  "requestUrl": "https://nextcloud.gecotoolbox.io",
   "languages": ["en", "fr", "es", "it", "gr"],
   "locale": "en"
 }

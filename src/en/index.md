@@ -4,7 +4,7 @@ title: gE.CO toolbox
 subtitle: Bringing technology to the commons!
 ---
 
-{% coverImage '/static/cover.jpg' %}
+{% coverImage '/static/cover-v2.jpg' %}
 
 ## Welcome to the gE.CO toolbox
 

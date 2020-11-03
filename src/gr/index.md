@@ -5,7 +5,7 @@ subtitle: Φέρνοντας την τεχνολογία στα κοινά!
 action: Βρες περισσότερα
 ---
 
-{% coverImage '/static/cover.jpg' %}
+{% coverImage '/static/cover-v2.jpg' %}
 
 ## Καλώς ήρθατε στην εργαλειοθήκη του gE.CO
 

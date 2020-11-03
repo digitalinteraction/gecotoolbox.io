@@ -5,7 +5,7 @@ subtitle: Mettons la technologie au service des communs!
 action: En savoir plus
 ---
 
-{% coverImage '/static/cover.jpg' %}
+{% coverImage '/static/cover-v2.jpg' %}
 
 ## Bienvenue à la Boîte à outils gE.CO
 

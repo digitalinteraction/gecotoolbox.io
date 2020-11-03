@@ -5,7 +5,7 @@ subtitle: Portando la tecnologia nei beni comuni!
 action: Scopri di più
 ---
 
-{% coverImage '/static/cover.jpg' %}
+{% coverImage '/static/cover-v2.jpg' %}
 
 ## Benvenuto nella cassetta degli attrezzi gE.CO
 

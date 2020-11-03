@@ -17,56 +17,7 @@ If you think that the gE.CO toolbox could be useful to you or your organisation,
 
 ## The services
 
-The toolbox is a collection of open-source software and services that have been brought together to help you with the tasks you regularly carry out.
-We have put together these tools based upon our experience of working with communities just like yours but are always looking for suggestions on how we might improve the platform.
-
-If you have any ideas about how we might improve the toolbox, such as by suggesting a service we might add, please get in touch at [support@gecotoolbox.io](mailto:support@gecotoolbox.io).
-
-> Graphic to illustrate that the toolbox is a collection of services that are owned by the organisation
-
-### NextCloud: File sharing and collaboration
-
-NextCloud is a tool that helps organise groups by providing better ways of sharing files and digital content.
-For example, rather than sharing files through email or memory sticks, NextCloud allows everyone to work from the same folder at the same time.
-With NextCloud you can share documents, images and calendars which allows collaboration on documents.
-
-There are over 200 'apps' that can be added to the platform to help you with tasks,
-so have a look at the extensions within your toolbox after you've signed up,
-allowing you to add things such as shared calendars.
-
-> Graphic for File Sharing needed
-
-### Loomio: Decision-making tools
-
-Loomio helps communities make decisions better online with engaging methods for online discussion.
-The service allows people to discuss issues important to them,
-and take important decisions together.
-For example, the service could be used to be transparent about what was discussed at meetings,
-or to have discussions about a group's mission.
-Loomio is effective at engaging new people in the group,
-so if you want to engage people who can not be there in person, Loomio is a great choice.
-
-> Graphic for online decision making needed
-
-### Wiki.js: Collectively make and share information
-
-Wiki.js allows a group of people to work together to produce content on specific issues.
-The software could be used within a group to share best practice or their knowledge about aspects of the organisation,
-or could be used more widely to engage new people in sharing their knowledge on issues.
-For example, you could set up a blog about your organisation's activities.
-
-> Graphic for sharing information needed
-
----
-
-## Register
-
-With the link below you can go to the shared toolbox and see the services that are setup there.
-Navigate to any of the services and you can see the public section of them.
-Create an account to sign in to the toolbox and you can use that account to sign in to all of the services.
-Use the orb to quickly navigate between the services or back home.
-
-{% bigButton site.requestUrl, action %}
+> TODO: info on NextCloud apps
 
 ## FAQs
 
@@ -79,10 +30,9 @@ In the future, we may no longer be able to pay for the service.
 When this happens, we will provide you with all the content you have made within the services.
 If you want to continue using the services, we will provide you with instructions on how to set them up for yourself.
 
-**How long does the project run for?**<br>
-The project is running from XXX to YYY
-
 **How do I join?**<br>
 If you are interested in using the toolbox, please follow the link below.
-You will be guided through the process of deciding which tools you would like to use
-and set up your organisation online.
+
+---
+
+{% bigButton site.requestUrl, action %}
