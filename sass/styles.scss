@@ -4,8 +4,9 @@
 
 // Customise bulma by setting their variables first
 // -> see https://bulma.io/documentation/customize/variables/
-$primary: #296eb4;
-$info: #58a4b0;
+$primary: #089fc4;
+$info: #cc3266;
+$link: #60b98f;
 
 $popup: #e56399;
 
@@ -38,6 +39,7 @@ $navbar-breakpoint: 0;
 .navbar .navbar-brand .navbar-item {
   font-family: $title-family;
   font-size: 1.5em;
+  color: #3a2145;
   .geco {
     font-weight: 700;
   }
@@ -117,7 +119,7 @@ $navbar-breakpoint: 0;
   margin: 0 auto 2em;
 
   img {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    vertical-align: middle;
   }
 
   @include touch {
@@ -141,4 +143,26 @@ p + .buttons.is-padded {
   .navbar .container {
     padding: 0 0.5rem;
   }
+}
+
+.geco-card {
+  border: 3px solid #5fb98f;
+  border: 3px solid #089fc4;
+  border-radius: 3px;
+}
+
+hr {
+  border: none;
+  border-bottom: 3px solid #784ab4;
+  margin: 3rem 0;
+}
+
+.service-image {
+  width: 100%;
+  padding-bottom: percentage($number: 9 / 16);
+  height: 0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 1rem 0;
 }

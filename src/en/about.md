@@ -13,11 +13,17 @@ The toolbox packages this software, which often needs to be set up individually,
 The technologies are provided for free for the duration of the project
 and you can retain the information generated through the technologies and will remain completely private.
 
-If you think that the gE.CO toolbox could be useful to you or your organisation, please follow the instructions below.
+<hr>
 
 ## The services
 
-> TODO: info on NextCloud apps
+{% gecoServices %}
+{% gecoService "NextCloud", "https://nextcloud.gecotoolbox.io", "/static/nextcloud.png" %}
+{% gecoService "Mattermost", "https://mattermost.gecotoolbox.io", "/static/mattermost.png" %}
+{% gecoService "CryptPad", "https://cryptpad.gecotoolbox.io", "/static/cryptpad.svg" %}
+{% endgecoServices %}
+
+<hr>
 
 ## FAQs
 
@@ -29,10 +35,3 @@ The gE.CO toolbox is funded by an EU grant so we can provide the toolbox free to
 In the future, we may no longer be able to pay for the service.
 When this happens, we will provide you with all the content you have made within the services.
 If you want to continue using the services, we will provide you with instructions on how to set them up for yourself.
-
-**How do I join?**<br>
-If you are interested in using the toolbox, please follow the link below.
-
----
-
-{% bigButton site.requestUrl, action %}

@@ -9,11 +9,17 @@ La caja de herramientas es un conjunto de servicios online que permiten a las co
 
 Todas las tecnologías son de código abierto, lo que significa que han sido desarrolladas públicamente por comunidades, para ayudar a otras comunidades. La caja de herramientas empaqueta varios softwares, que a menudo necesitan ser configurados individualmente, en un servicio llamado “caja de herramientas gE.CO”. Se puede invitar a todos los miembros de una organización a la caja de herramientas personalizada por su grupo, lo que le permite utilizar todos los servicios de software juntos. Las tecnologías se proporcionan de forma gratuita, y pueden retener la información generada a través de dichas tecnologías y permanecerá completamente privada.
 
-Si cree que la caja de herramientas gE.CO podría ser útil para usted o su organización, siga las instrucciones a continuación.
+<hr>
 
 ## Los servicios
 
-> TODO: info on NextCloud apps
+{% gecoServices %}
+{% gecoService "NextCloud", "https://nextcloud.gecotoolbox.io", "/static/nextcloud.png" %}
+{% gecoService "Mattermost", "https://mattermost.gecotoolbox.io", "/static/mattermost.png" %}
+{% gecoService "CryptPad", "https://cryptpad.gecotoolbox.io", "/static/cryptpad.svg" %}
+{% endgecoServices %}
+
+<hr>
 
 ## Preguntas frecuentes
 
@@ -22,9 +28,6 @@ Respondemos continuamente a preguntas de organizaciones. Si tiene alguna a la qu
 
 **¿Tendré que pagar por la caja de herramientas?**<br>
 La caja de herramientas gE.CO está financiada con fondos de la UE y ofrece sus herramientas de forma gratuita. Es posible que en un futuro ya no podamos financiar el servicio. Cuando esto suceda, le proporcionaremos todo el contenido que haya creado dentro de los servicios. Si desea continuar utilizando los servicios, le proporcionaremos instrucciones sobre cómo poder configurarlos usted mismo.
-
-**¿Cómo me inscribo?**<br>
-Si está interesado en usar la caja de herramientas, siga el siguiente enlace.
 
 ---
 
