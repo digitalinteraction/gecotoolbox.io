@@ -1,6 +1,48 @@
 ---
 layout: about
 action: Go to the tools
+serviceLabels:
+  - documents
+  - communication
+  - surveys
+  - calendar
+serviceAction: Open service →
+services:
+  - name: NextCloud Drive
+    image: /static/nextcloud.png
+    labels: [documents]
+    description: A document collaboration platform
+    url: https://nextcloud.gecotoolbox.io/apps/files
+  - name: NextCloud Talk
+    image: /static/nextcloud.png
+    labels: [communication]
+    description: A communication and chat platform
+    url: https://nextcloud.gecotoolbox.io/apps/spreed/
+  - name: NextCloud Forms
+    image: /static/nextcloud.png
+    labels: [surveys]
+    description: A form and survey platform
+    url: https://nextcloud.gecotoolbox.io/apps/forms/
+  - name: NextCloud Calendar
+    image: /static/nextcloud.png
+    labels: [calendar]
+    description: A digital sharable calendar
+    url: https://nextcloud.gecotoolbox.io/apps/calendar
+  - name: Mattermost
+    image: /static/mattermost.png
+    labels: [communication]
+    description: A communication and chat platform
+    url: https://mattermost.gecotoolbox.io
+  - name: CryptPad
+    image: /static/cryptpad.svg
+    labels: [documents]
+    description: A real-time collaboration platform
+    url: https://cryptpad.gecotoolbox.io/drive/
+  - name: LimeSurvey
+    image: /static/limesurvey.svg
+    labels: [surveys]
+    description: A form and survey platform
+    url: https://limesurvey.gecotoolbox.io
 ---
 
 # About
@@ -17,18 +59,12 @@ and you can retain the information generated through the technologies and will r
 
 ## The services
 
-{% gecoServices %}
-{% gecoService "NextCloud", "https://nextcloud.gecotoolbox.io", "/static/nextcloud.png" %}
-{% gecoService "Mattermost", "https://mattermost.gecotoolbox.io", "/static/mattermost.png" %}
-{% gecoService "CryptPad", "https://cryptpad.gecotoolbox.io", "/static/cryptpad.svg" %}
-{% endgecoServices %}
-
-<hr>
+{% include "services.njk" %}
 
 ## FAQs
 
-We're constantly answering questions from organisations.
-If you have any that are not answered below, please get in touch by emailing [support@gecotoolbox.io](mailto:support@gecotoolbox.io).
+We're happy to answer questions from organisations.
+Please get in touch by emailing [support@gecotoolbox.io](mailto:support@gecotoolbox.io).
 
 **Will I have to pay for the toolbox?**<br>
 The gE.CO toolbox is funded by an EU grant so we can provide the toolbox free to use for the duration of the project.

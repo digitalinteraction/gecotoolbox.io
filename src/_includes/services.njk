@@ -1,0 +1,92 @@
+<div class="services">
+  <div class="services-filters">
+    <p class="services-filterLabel">Filter by</p>
+    <div class="tags">
+      {% for label in serviceLabels %}
+      <div class="tag" data-label="{{ label }}">{{ label }}</div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="columns is-multiline">
+    {% for service in services %}
+    <div class="column is-half">
+      <div class="card geco-card" data-service="{{ service.name }}">
+        <div class="media">
+          <div class="media-left">
+            <a href="{{ service.url }}">
+              <figure class="image is-64x64">
+                <img src="{{ service.image }}" alt="{{ service.name }}" />
+              </figure>
+            </a>
+          </div>
+          <div class="media-content">
+            <a href="{{ service.url }}">
+              <div class="title is-4">{{ service.name }}</div>
+            </a>
+            <p class="subtitle is-6">{{ service.description }}</p>
+            <p class="has-text-right has-text-weight-bold">
+              <a href="{{ service.url }}">{{ serviceAction }}</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  window.gecoServices = JSON.parse('{{ services | jsonify | safe }}')
+  const root = document.querySelector('.services')
+  const labels = root.querySelectorAll('.tag')
+  const services = root.querySelectorAll('.geco-card')
+  let currentLabel = null
+
+  for (const elem of labels) {
+    elem.addEventListener('click', function() {
+      setCurrentLabel(
+        elem.dataset.label === currentLabel ? null : elem.dataset.label
+      )
+    })
+  }
+  function setCurrentLabel(chosenLabel) {
+    for (const elem of labels) {
+      elem.classList.toggle('is-primary', chosenLabel === elem.dataset.label)
+    }
+    for (const elem of services) {
+      const service = window.gecoServices.find(
+        s => s.name === elem.dataset.service
+      )
+      if (!service) continue
+      elem.parentElement.classList.toggle(
+        'is-gone',
+        chosenLabel !== null && !service.labels.includes(chosenLabel)
+      )
+    }
+    currentLabel = chosenLabel
+  }
+</script>
+
+<style>
+  .services {
+  }
+  .services-filters {
+  }
+  .services-filters .tag {
+    cursor: pointer;
+  }
+  .services .media {
+    align-items: center;
+    min-height: 120px;
+  }
+  .geco-card {
+    padding: 8px;
+  }
+  figure.image {
+    display: flex;
+    align-items: center;
+  }
+  .is-gone {
+    display: none;
+  }
+</style>

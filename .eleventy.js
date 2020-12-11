@@ -68,6 +68,10 @@ module.exports = function(eleventyConfig) {
     return url.replace('/' + this.ctx.locale, '/' + newLocale)
   })
 
+  eleventyConfig.addFilter('jsonify', function(data) {
+    return JSON.stringify(data)
+  })
+
   return {
     dir: {
       input: 'src',
