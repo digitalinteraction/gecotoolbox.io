@@ -7,7 +7,7 @@ deploy:
     name: node:12-alpine
     entrypoint: ['']
   only:
-    - master
+    - main
   script:
     - apk add --no-cache curl
     - NODE_ENV=production npm ci
