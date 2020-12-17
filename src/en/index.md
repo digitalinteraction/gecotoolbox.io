@@ -2,6 +2,13 @@
 layout: home
 title: gE.CO toolbox
 subtitle: Bringing technology to the commons!
+actions:
+  - url: '/about'
+    text: Go to the services
+    class: is-info
+  - url: 'https://docs.gecotoolbox.io/'
+    text: Open the docs
+    class: is-light
 ---
 
 {% coverImage '/static/cover-v2.jpg' %}
@@ -16,5 +23,3 @@ All of the software has been designed to help organisations carry out the tasks 
 
 The gE.CO toolbox is part of the EU horizons 2020 programme
 and is developed by [Open Lab](https://openlab.ncl.ac.uk).
-
-{% bigButton '/about' | localeUrl, action %}

@@ -1,26 +1,12 @@
 const markdown = require('markdown-it')
 const markdownAnchor = require('markdown-it-anchor')
 
-// from: https://github.com/robb-j/md-toc/
-function slugify(value) {
-  return value
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^\w-]+/g, '')
-}
-
-const selfClosing = new Set(['img', 'br', 'input'])
-
-function h(element, attrs = {}, children = []) {
-  const attributes = Object.keys(attrs)
-    .map(key => `${key}="${attrs[key]}"`)
-    .join(' ')
-
-  const closingTag = selfClosing.has(element) ? '' : `</${element}>`
-  return `<${element} ${attributes}>${children.join('')}${closingTag}`
-}
+const filters = require('./11ty/filters')
+const shortcodes = require('./11ty/shortcodes')
+const pairedShortcodes = require('./11ty/paired-shortcodes')
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addWatchTarget('./sass/')
   eleventyConfig.addPassthroughCopy('static')
 
   const md = markdown({
@@ -30,47 +16,21 @@ module.exports = function(eleventyConfig) {
   })
 
   md.disable('code')
-  md.use(markdownAnchor, { slugify })
+  md.use(markdownAnchor, { slugify: filters.slugify })
 
   eleventyConfig.setLibrary('md', md)
 
-  eleventyConfig.addShortcode('coverImage', src => {
-    return h('div', { class: 'cover-image geco-card' }, [h('img', { src })])
-  })
+  for (const [key, value] of Object.entries(filters)) {
+    eleventyConfig.addFilter(key, value)
+  }
 
-  eleventyConfig.addShortcode('bigButton', (href, text) => {
-    return h('div', { class: 'buttons is-centered is-padded' }, [
-      h('a', { class: 'button is-info is-large', href }, [text])
-    ])
-  })
+  for (const [key, value] of Object.entries(shortcodes)) {
+    eleventyConfig.addShortcode(key, value)
+  }
 
-  eleventyConfig.addPairedShortcode('gecoServices', body => {
-    return `<div class="columns is-multiline">${body}</div>`
-  })
-  eleventyConfig.addShortcode('gecoService', (name, url, image) => {
-    return h('div', { class: 'column is-half' }, [
-      h('div', { class: 'card geco-card' }, [
-        h('a', { href: url }, [
-          h('div', {
-            class: 'service-image',
-            style: `background-image: url(${image});`
-          })
-        ])
-      ])
-    ])
-  })
-
-  eleventyConfig.addFilter('localeUrl', function(url) {
-    return this.env.filters.url(`/${this.ctx.locale}/${url}`)
-  })
-
-  eleventyConfig.addFilter('swapLocaleSlug', function(url, newLocale) {
-    return url.replace('/' + this.ctx.locale, '/' + newLocale)
-  })
-
-  eleventyConfig.addFilter('jsonify', function(data) {
-    return JSON.stringify(data)
-  })
+  for (const [key, value] of Object.entries(pairedShortcodes)) {
+    eleventyConfig.addPairedShortcode(key, value)
+  }
 
   return {
     dir: {

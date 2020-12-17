@@ -2,7 +2,13 @@
 layout: home
 title: gE.CO toolbox
 subtitle: Portando la tecnologia nei beni comuni!
-action: Scopri di più
+actions:
+  - url: '/about'
+    text: Vai ai servizi
+    class: is-info
+  - url: 'https://docs.gecotoolbox.io/'
+    text: Apri i documenti
+    class: is-light
 ---
 
 {% coverImage '/static/cover-v2.jpg' %}
@@ -15,5 +21,3 @@ La cassetta degli attrezzi è progettata per essere utilizzata dalle organizzazi
 
 La cassetta degli attrezzi gE.CO è parte del programma Horizon 2020 ed è sviluppata da
 [Open Lab](https://openlab.ncl.ac.uk).
-
-{% bigButton '/about' | localeUrl, action %}

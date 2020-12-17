@@ -2,13 +2,13 @@
   <div class="services-filters">
     <p class="services-filterLabel">Filter by</p>
     <div class="tags">
-      {% for label in serviceLabels %}
+      {% for label in (localeServiceLabels or services.labels) %}
       <div class="tag" data-label="{{ label }}">{{ label }}</div>
       {% endfor %}
     </div>
   </div>
   <div class="columns is-multiline">
-    {% for service in services %}
+    {% for service in (localeServices or services.all) %}
     <div class="column is-half">
       <div class="card geco-card" data-service="{{ service.name }}">
         <div class="media">
@@ -25,6 +25,9 @@
             </a>
             <p class="subtitle is-6">{{ service.description }}</p>
             <p class="has-text-right has-text-weight-bold">
+              {% if serviceDocsAction and service.docs %}
+              <a href="{{ service.docs }}">{{ serviceDocsAction }}</a>
+              {% endif %}
               <a href="{{ service.url }}">{{ serviceAction }}</a>
             </p>
           </div>
@@ -36,7 +39,7 @@
 </div>
 
 <script>
-  window.gecoServices = JSON.parse('{{ services | jsonify | safe }}')
+  window.gecoServices = JSON.parse('{{ services.all | jsonify | safe }}')
   const root = document.querySelector('.services')
   const labels = root.querySelectorAll('.tag')
   const services = root.querySelectorAll('.geco-card')
@@ -88,5 +91,8 @@
   }
   .is-gone {
     display: none;
+  }
+  .geco-card .media a:not(:last-child) {
+    margin-right: 12px;
   }
 </style>

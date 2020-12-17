@@ -2,7 +2,13 @@
 layout: home
 title: gE.CO toolbox
 subtitle: Φέρνοντας την τεχνολογία στα κοινά!
-action: Βρες περισσότερα
+actions:
+  - url: '/about'
+    text: Μεταβείτε στις υπηρεσίες
+    class: is-info
+  - url: 'https://docs.gecotoolbox.io/'
+    text: Ανοίξτε τα έγγραφα
+    class: is-light
 ---
 
 {% coverImage '/static/cover-v2.jpg' %}
@@ -18,5 +24,3 @@ action: Βρες περισσότερα
 
 Η εργαλειοθήκη του gE.CO είναι κομμάτι του ευρωπαϊκού προγράμματος Horizon 2020 και αναπτύχθηκε από το
 [Open Lab](https://openlab.ncl.ac.uk).
-
-{% bigButton '/about' | localeUrl, action %}

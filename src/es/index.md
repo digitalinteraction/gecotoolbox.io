@@ -2,7 +2,13 @@
 layout: home
 title: gE.CO toolbox
 subtitle: ¡Llevando la tecnología a los bienes comunes!
-action: Saber más
+actions:
+  - url: '/about'
+    text: Ir a los servicios
+    class: is-info
+  - url: 'https://docs.gecotoolbox.io/'
+    text: Abra los documentos
+    class: is-light
 ---
 
 {% coverImage '/static/cover-v2.jpg' %}
@@ -15,5 +21,3 @@ La caja de herramientas está diseñada para ser utilizada por organizaciones qu
 
 La caja de herramientas gE.CO forma parte del programa Horizon 2020 de la UE y está desarrollada por
 [Open Lab](https://openlab.ncl.ac.uk).
-
-{% bigButton '/about' | localeUrl, action %}

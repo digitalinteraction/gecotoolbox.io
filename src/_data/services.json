@@ -1,0 +1,61 @@
+{
+  "labels": ["documents", "communication", "surveys", "calendar"],
+  "all": [
+    {
+      "name": "NextCloud Drive",
+      "image": "/static/nextcloud.png",
+      "labels": ["documents"],
+      "description": "A document collaboration platform",
+      "url": "https://nextcloud.gecotoolbox.io/apps/files",
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud/"
+    },
+    {
+      "name": "NextCloud Talk",
+      "image": "/static/nextcloud.png",
+      "labels": ["communication"],
+      "description": "A communication and chat platform",
+      "url": "https://nextcloud.gecotoolbox.io/apps/spreed/",
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud-talk/"
+    },
+    {
+      "name": "NextCloud Forms",
+      "image": "/static/nextcloud.png",
+      "labels": ["surveys"],
+      "description": "A form and survey platform",
+      "url": "https://nextcloud.gecotoolbox.io/apps/forms/",
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud-forms/"
+    },
+    {
+      "name": "NextCloud Calendar",
+      "image": "/static/nextcloud.png",
+      "labels": ["calendar"],
+      "description": "A digital sharable calendar",
+      "url": "https://nextcloud.gecotoolbox.io/apps/calendar",
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud-calendar/"
+    },
+    {
+      "name": "Mattermost",
+      "image": "/static/mattermost.png",
+      "labels": ["communication"],
+      "description": "A communication and chat platform",
+      "url": "https://mattermost.gecotoolbox.io",
+      "docs": "https://docs.gecotoolbox.io/service/mattermost/"
+    },
+    {
+      "name": "CryptPad",
+      "image": "/static/cryptpad.svg",
+      "labels": ["documents"],
+      "description": "A real-time collaboration platform",
+      "url": "https://cryptpad.gecotoolbox.io/drive/",
+      "docs": "https://docs.gecotoolbox.io/service/cryptpad/"
+    },
+    {
+      "name": "LimeSurvey",
+      "image": "/static/limesurvey.svg",
+      "labels": ["surveys"],
+      "description": "A form and survey platform",
+      "url": "https://limesurvey.gecotoolbox.io",
+      "docs": "https://docs.gecotoolbox.io/service/limesurvey/"
+    }
+  ]
+}

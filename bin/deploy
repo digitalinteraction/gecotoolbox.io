@@ -1,0 +1,26 @@
+#!/usb/bin/env sh
+
+set -e
+
+if [ -f .env ]
+then
+  source .env
+fi
+
+if [ -f archive.tar.gz ]
+then
+  rm archive.tar.gz
+fi
+
+if [ -d dist ]
+then
+  rm -rf dist
+fi
+
+NODE_ENV=production npm ci
+
+npm run build
+
+tar -zcvf archive.tar.gz -C dist .
+
+curl --silent --header "Authorization: Bearer $DEPLOY_KEY" --form archive=@archive.tar.gz $DEPLOY_URL

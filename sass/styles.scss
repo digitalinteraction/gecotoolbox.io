@@ -1,9 +1,28 @@
 //
-// From: https://openlab.ncl.ac.uk/gitlab/geco/requests-gui/blob/master/src/scss/common.scss
+// Styles for gecotoolbox.io
 //
 
+//
+// Custom fonts
+//
+@font-face {
+  font-family: 'Mulish';
+  src: url('/static/fonts/Mulish/Mulish-VariableFont_wght.ttf')
+    format('truetype-variations');
+  font-weight: 200 900;
+}
+@font-face {
+  font-family: 'Mulish';
+  src: url('/static/fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf')
+    format('truetype-variations');
+  font-style: italic;
+  font-weight: 200 900;
+}
+
+//
 // Customise bulma by setting their variables first
 // -> see https://bulma.io/documentation/customize/variables/
+//
 $primary: #089fc4;
 $info: #cc3266;
 $link: #60b98f;
@@ -13,15 +32,15 @@ $popup: #e56399;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
-$body-family: 'IBM Plex Sans', 'system-ui', -apple-system, BlinkMacSystemFont,
-  'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
-  'Segoe UI Emoji', 'Segoe UI Symbol';
+$body-family: 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol';
 $family-monospace: 'SF Mono', Consolas, 'Liberation Mono', Menlo, Courier,
   monospace;
 
-$title-family: 'Rubik', $body-family;
+$title-family: 'Mulish', $body-family;
 $subtitle-family: $title-family;
-$title-weight: 500;
+$title-weight: 700;
 
 $button-family: $title-family;
 $button-weight: 700;

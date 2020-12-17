@@ -3,6 +3,13 @@ layout: home
 title: gE.CO toolbox
 subtitle: Mettons la technologie au service des communs!
 action: En savoir plus
+actions:
+  - url: '/about'
+    text: Aller aux services
+    class: is-info
+  - url: 'https://docs.gecotoolbox.io/'
+    text: Ouvrez les documents
+    class: is-light
 ---
 
 {% coverImage '/static/cover-v2.jpg' %}
@@ -15,5 +22,3 @@ La boîte à outils a été créée pour être utilisée par des collectifs acti
 
 La boîte à outils gE.CO fait partie du programme UE Horizon 2020 et est développée par
 [Open Lab](https://openlab.ncl.ac.uk).
-
-{% bigButton '/about' | localeUrl, action %}

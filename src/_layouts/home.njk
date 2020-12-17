@@ -20,6 +20,16 @@ action: Go to the services
       <div class="content">
         {{ content | safe }}
       </div>
+      <div class="buttons is-centered is-padded">
+        {% for button in actions %}
+        <a
+          class="button is-large {{ button.class }}"
+          href="{{ button.url | localeUrl }}"
+        >
+          {{ button.text }}
+        </a>
+        {% endfor %}
+      </div>
     </div>
   </section>
 </main>
