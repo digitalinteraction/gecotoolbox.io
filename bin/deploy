@@ -1,4 +1,4 @@
-#!/usb/bin/env sh
+#!/usr/bin/env sh
 
 set -e
 
@@ -17,7 +17,10 @@ then
   rm -rf dist
 fi
 
-NODE_ENV=production npm ci
+if [ ! -d node_modules]
+then
+  NODE_ENV=production npm ci
+fi
 
 npm run build
 

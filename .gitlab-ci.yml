@@ -10,7 +10,4 @@ deploy:
     - main
   script:
     - apk add --no-cache curl
-    - NODE_ENV=production npm ci
-    - npm run build
-    - tar -zcvf archive.tar.gz -C dist .
-    - 'curl --silent --header "Authorization: Bearer $DEPLOY_KEY" --form archive=@archive.tar.gz $DEPLOY_URL'
+    - ./bin/deploy

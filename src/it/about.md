@@ -1,7 +1,7 @@
 ---
 layout: about
 serviceAction: Open service →
-# serviceDocsAction: View docs →
+serviceDocsAction: View docs →
 ---
 
 # Su di noi

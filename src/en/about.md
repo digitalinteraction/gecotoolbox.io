@@ -6,8 +6,7 @@ serviceLabels:
   - surveys
   - calendar
 serviceAction: Open service →
-# serviceDocsAction: View docs →
-# localeServices: []
+serviceDocsAction: View docs →
 ---
 
 # About
