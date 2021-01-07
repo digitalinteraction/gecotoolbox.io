@@ -7,5 +7,3 @@ coverage
 *.env
 .DS_Store
 dist
-
-archive.tar.gz
