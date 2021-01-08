@@ -158,6 +158,15 @@ p + .buttons.is-padded {
   padding-top: 1.5rem;
 }
 
+.button.is-geco {
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  max-width: 150px;
+  white-space: normal;
+  height: unset;
+}
+
 @include touch {
   .navbar .container {
     padding: 0 0.5rem;

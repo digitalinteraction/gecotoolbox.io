@@ -9,6 +9,9 @@ actions:
   - url: 'https://docs.gecotoolbox.io/'
     text: Open the docs
     class: is-light
+  # - url: 'mailto:support@gecotoolbox.io?subject=gE.CO toolbox Question'
+  #   text: Contact us
+  #   class: is-light
 ---
 
 {% coverImage '/static/cover-v2.jpg' %}

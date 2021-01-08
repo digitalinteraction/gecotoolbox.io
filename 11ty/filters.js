@@ -15,6 +15,7 @@ exports.slugify = function(value = '') {
 // e.g. 'some' | localify | url
 exports.localeUrl = function(url) {
   if (url.startsWith('http')) return url
+  if (url.startsWith('mailto')) return url
   return this.env.filters.url(`/${this.ctx.locale}/${url}`)
 }
 
