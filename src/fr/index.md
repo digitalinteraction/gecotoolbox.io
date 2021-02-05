@@ -12,7 +12,7 @@ actions:
     class: is-light
 ---
 
-{% coverImage '/static/cover-v2.jpg' %}
+{% vimeo 'https://player.vimeo.com/video/507074662?autoplay=1' %}
 
 ## Bienvenue à la Boîte à outils gE.CO
 

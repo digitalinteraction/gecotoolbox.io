@@ -39,6 +39,8 @@
         document.documentElement.classList.remove('is-clipped')
         modal.classList.remove('is-active')
         window.removeEventListener('keydown', keyboardHandler)
+
+        modal.querySelector('.modal-content').innerHTML = ''
       }
 
       modal.querySelector('.modal-close').addEventListener('click', function() {

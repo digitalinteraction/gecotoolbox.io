@@ -26,3 +26,18 @@ exports.gecoService = function(name, url, image) {
 exports.now = function() {
   return new Date().toLocaleDateString()
 }
+
+exports.vimeo = function(src) {
+  return h('div', { class: 'geco-card cover-video' }, [
+    h('div', { class: 'iframeEmbed' }, [
+      h('iframe', {
+        src: src,
+        width: '100%',
+        height: '100%',
+        frameborder: '0',
+        allow: 'autoplay; fullscreen; picture-in-picture',
+        allowfullscreen: 'allowfullscreen'
+      })
+    ])
+  ])
+}
