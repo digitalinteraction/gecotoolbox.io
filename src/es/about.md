@@ -4,7 +4,7 @@ serviceAction: Open service →
 serviceDocsAction: View docs →
 ---
 
-# About
+# Servicios
 
 La caja de herramientas es un conjunto de servicios online que permiten a las comunidades aprovechar las tecnologías de uso gratuito. Ha sido diseñado para ayudar a las organizaciones de bienes comunes a llevar a cabo las tareas por las que luchan.
 

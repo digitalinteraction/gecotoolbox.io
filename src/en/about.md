@@ -7,9 +7,10 @@ serviceLabels:
   - calendar
 serviceAction: Open service →
 serviceDocsAction: View docs →
+serviceVideoAction: Play video →
 ---
 
-# About
+# Services
 
 The toolbox is a collection of online services that allow communities to take advantage of free to use technologies.
 It has been designed to help commons organisations carry out the tasks they currently struggle with.

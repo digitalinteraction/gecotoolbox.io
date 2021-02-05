@@ -11,5 +11,45 @@
     <div class="fill-viewport-vertically">
       {{ content | safe }}
     </div>
+    <div class="modal" id="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content"></div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <script>
+      const modal = document.getElementById('modal')
+
+      function keyboardHandler(event) {
+        if (event.code !== 'Escape') return
+        if (!modal.classList.contains('is-active')) return
+
+        window.closeModal()
+        event.preventDefault()
+      }
+
+      window.showModal = function(contents) {
+        const content = modal.querySelector('.modal-content')
+        content.innerHTML = contents
+        modal.classList.add('is-active')
+        document.documentElement.classList.add('is-clipped')
+        window.addEventListener('keydown', keyboardHandler)
+      }
+
+      window.closeModal = function() {
+        document.documentElement.classList.remove('is-clipped')
+        modal.classList.remove('is-active')
+        window.removeEventListener('keydown', keyboardHandler)
+      }
+
+      modal.querySelector('.modal-close').addEventListener('click', function() {
+        window.closeModal()
+      })
+
+      modal
+        .querySelector('.modal-background')
+        .addEventListener('click', function() {
+          window.closeModal()
+        })
+    </script>
   </body>
 </html>

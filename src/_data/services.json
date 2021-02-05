@@ -7,7 +7,8 @@
       "labels": ["documents"],
       "description": "A document collaboration platform",
       "url": "https://nextcloud.gecotoolbox.io/apps/files",
-      "docs": "https://docs.gecotoolbox.io/service/nextcloud/"
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud/",
+      "video": "https://vimeo.com/showcase/6792222/video/507075196/embed"
     },
     {
       "name": "NextCloud Talk",
@@ -15,7 +16,8 @@
       "labels": ["communication"],
       "description": "A communication and chat platform",
       "url": "https://nextcloud.gecotoolbox.io/apps/spreed/",
-      "docs": "https://docs.gecotoolbox.io/service/nextcloud-talk/"
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud-talk/",
+      "video": "https://vimeo.com/showcase/6792222/video/507075374/embed"
     },
     {
       "name": "NextCloud Forms",
@@ -23,7 +25,8 @@
       "labels": ["surveys"],
       "description": "A form and survey platform",
       "url": "https://nextcloud.gecotoolbox.io/apps/forms/",
-      "docs": "https://docs.gecotoolbox.io/service/nextcloud-forms/"
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud-forms/",
+      "video": "https://vimeo.com/showcase/6792222/video/507075287/embed"
     },
     {
       "name": "NextCloud Calendar",
@@ -31,7 +34,8 @@
       "labels": ["calendar"],
       "description": "A digital sharable calendar",
       "url": "https://nextcloud.gecotoolbox.io/apps/calendar",
-      "docs": "https://docs.gecotoolbox.io/service/nextcloud-calendar/"
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud-calendar/",
+      "video": null
     },
     {
       "name": "Mattermost",
@@ -39,7 +43,8 @@
       "labels": ["communication"],
       "description": "A communication and chat platform",
       "url": "https://mattermost.gecotoolbox.io",
-      "docs": "https://docs.gecotoolbox.io/service/mattermost/"
+      "docs": "https://docs.gecotoolbox.io/service/mattermost/",
+      "video": "https://vimeo.com/showcase/6792222/video/507075103/embed"
     },
     {
       "name": "CryptPad",
@@ -47,7 +52,8 @@
       "labels": ["documents"],
       "description": "A real-time collaboration platform",
       "url": "https://cryptpad.gecotoolbox.io/drive/",
-      "docs": "https://docs.gecotoolbox.io/service/cryptpad/"
+      "docs": "https://docs.gecotoolbox.io/service/cryptpad/",
+      "video": null
     },
     {
       "name": "LimeSurvey",
@@ -55,7 +61,8 @@
       "labels": ["surveys"],
       "description": "A form and survey platform",
       "url": "https://limesurvey.gecotoolbox.io",
-      "docs": "https://docs.gecotoolbox.io/service/limesurvey/"
+      "docs": "https://docs.gecotoolbox.io/service/limesurvey/",
+      "video": null
     }
   ]
 }

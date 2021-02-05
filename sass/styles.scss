@@ -32,6 +32,8 @@ $popup: #e56399;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
+$modal-content-width: 1024px;
+
 $body-family: 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
   Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
   'Segoe UI Symbol';
@@ -118,6 +120,10 @@ $navbar-breakpoint: 0;
   }
 }
 
+//
+// Custom styles
+//
+
 .content {
   h1,
   h2,
@@ -193,4 +199,30 @@ hr {
   background-position: center;
   background-repeat: no-repeat;
   margin: 1rem 0;
+}
+
+.iframeEmbed {
+  height: 0;
+  padding-bottom: percentage(9 / 16);
+
+  background-color: #fafafa;
+  border-radius: $radius;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  > iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@include mobile {
+  .modal-content .box {
+    margin: 0 1em;
+  }
 }

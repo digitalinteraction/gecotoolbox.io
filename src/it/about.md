@@ -4,7 +4,7 @@ serviceAction: Open service →
 serviceDocsAction: View docs →
 ---
 
-# Su di noi
+# Servizi
 
 La cassetta degli attrezzi è un insieme di servizi online che permettono alle comunità di ottenere vantaggi dall’uso delle tecnologie libere. Lo strumento è stato progettato per aiutare le organizzazioni dei beni comuni nel mettere in pratica le attività con le quali si trovano al momento in difficoltà.
 

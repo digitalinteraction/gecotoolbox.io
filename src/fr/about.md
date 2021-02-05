@@ -4,7 +4,7 @@ serviceAction: Open service →
 serviceDocsAction: View docs →
 ---
 
-# A propos
+# Prestations de service
 
 La boîte à outils gE.CO rassemble plusieurs services en ligne qui permettent aux collectifs de profiter de technologies gratuites. Elle a été pensée afin d’aider ceux-ci à exécuter les tâches qui leur sont actuellement difficiles.
 

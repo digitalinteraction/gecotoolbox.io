@@ -25,10 +25,23 @@
             </a>
             <p class="subtitle is-6">{{ service.description }}</p>
             <p class="has-text-right has-text-weight-bold">
-              {% if serviceDocsAction and service.docs %}
-              <a href="{{ service.docs }}">{{ serviceDocsAction }}</a>
+              {% if serviceVideoAction and service.video %}
+              <a
+                href="#"
+                class="geco-video-button"
+                data-title="{{ service.name }}"
+                data-video="{{ service.video }}"
+              >
+                {{ serviceVideoAction }}
+              </a>
+              {% endif %} {% if serviceDocsAction and service.docs %}
+              <a href="{{ service.docs }}">
+                {{ serviceDocsAction }}
+              </a>
               {% endif %}
-              <a href="{{ service.url }}">{{ serviceAction }}</a>
+              <a href="{{ service.url }}">
+                {{ serviceAction }}
+              </a>
             </p>
           </div>
         </div>
@@ -45,6 +58,9 @@
   const services = root.querySelectorAll('.geco-card')
   let currentLabel = null
 
+  //
+  // Listen to label clicks and update the filtering
+  //
   for (const elem of labels) {
     elem.addEventListener('click', function() {
       setCurrentLabel(
@@ -52,6 +68,31 @@
       )
     })
   }
+
+  // Listen to video clicks and show the modal
+  for (const button of root.querySelectorAll('.geco-video-button')) {
+    button.addEventListener('click', function(event) {
+      event.preventDefault()
+
+      window.showModal(`
+        <div class="box">
+          <h1 class="title">${button.dataset.title}</h1>
+          <div class="iframeEmbed">
+            <iframe
+              allowfullscreen=""
+              scrolling="no"
+              src="${button.dataset.video}"
+              title="${button.dataset.title}"
+            ></iframe>
+          </div>
+        </div>
+      `)
+    })
+  }
+
+  //
+  // Set the current filtering label or turn of the current one
+  //
   function setCurrentLabel(chosenLabel) {
     for (const elem of labels) {
       elem.classList.toggle('is-primary', chosenLabel === elem.dataset.label)
