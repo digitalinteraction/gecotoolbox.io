@@ -24,22 +24,22 @@
               <div class="title is-4">{{ service.name }}</div>
             </a>
             <p class="subtitle is-6">{{ service.description }}</p>
-            <p class="has-text-right has-text-weight-bold">
-              {% if serviceVideoAction and service.video %}
+            <p class="buttons is-right">
+              {% if serviceDocsAction and service.docs %}
+              <a class="button is-small is-text" href="{{ service.docs }}">
+                {{ serviceDocsAction }}
+              </a>
+              {% endif %} {% if serviceVideoAction and service.video %}
               <a
                 href="#"
-                class="geco-video-button"
+                class="geco-video-button button is-small is-link"
                 data-title="{{ service.name }}"
                 data-video="{{ service.video }}"
               >
                 {{ serviceVideoAction }}
               </a>
-              {% endif %} {% if serviceDocsAction and service.docs %}
-              <a href="{{ service.docs }}">
-                {{ serviceDocsAction }}
-              </a>
               {% endif %}
-              <a href="{{ service.url }}">
+              <a class="button is-small is-primary" href="{{ service.url }}">
                 {{ serviceAction }}
               </a>
             </p>
