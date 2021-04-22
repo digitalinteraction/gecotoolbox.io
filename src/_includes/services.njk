@@ -21,7 +21,7 @@
           </div>
           <div class="media-content">
             <a href="{{ service.url }}">
-              <div class="title is-4">{{ service.name }}</div>
+              <p class="title is-4">{{ service.name }}</p>
             </a>
             <p class="subtitle is-6">{{ service.description }}</p>
             <p class="buttons is-right">
@@ -48,6 +48,28 @@
       </div>
     </div>
     {% endfor %}
+    <div class="column is-half">
+      <div class="card geco-card is-alt" data-service="custom">
+        <div class="media">
+          <div class="media-content">
+            <a href="https://limesurvey.gecotoolbox.io/index.php/863223">
+              <p class="title is-4 has-text-centered">Request a service</p>
+            </a>
+            <p class="subtitle is-6 has-text-centered">
+              Got an idea for a different gE.CO service?
+            </p>
+            <div class="buttons is-centered">
+              <a
+                class="button is-small is-link"
+                href="https://limesurvey.gecotoolbox.io/index.php/863223"
+              >
+                Fill out our form!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

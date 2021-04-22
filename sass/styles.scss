@@ -182,9 +182,13 @@ p + .buttons.is-padded {
 }
 
 .geco-card {
-  border: 3px solid #5fb98f;
-  border: 3px solid #089fc4;
+  border: 3px solid $primary;
   border-radius: 3px;
+
+  &.is-alt {
+    border-color: $link;
+    background-color: transparentize($link, 0.9);
+  }
 }
 
 hr {
