@@ -19,7 +19,7 @@
     "node": ">=8"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^0.12.1",
     "bulma": "^0.9.1",
     "markdown-it": "^12.0.3",
     "markdown-it-anchor": "^6.0.1",
