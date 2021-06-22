@@ -16,7 +16,7 @@
       "labels": ["communication"],
       "description": "A communication and chat platform",
       "url": "https://nextcloud.gecotoolbox.io/apps/spreed/",
-      "docs": "https://docs.gecotoolbox.io/service/nextcloud-talk/",
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud/",
       "video": "https://player.vimeo.com/video/507075374?autoplay=1"
     },
     {
@@ -25,7 +25,7 @@
       "labels": ["surveys"],
       "description": "A form and survey platform",
       "url": "https://nextcloud.gecotoolbox.io/apps/forms/",
-      "docs": "https://docs.gecotoolbox.io/service/nextcloud-forms/",
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud/",
       "video": "https://player.vimeo.com/video/507075287?autoplay=1"
     },
     {
@@ -34,7 +34,7 @@
       "labels": ["calendar"],
       "description": "A digital sharable calendar",
       "url": "https://nextcloud.gecotoolbox.io/apps/calendar",
-      "docs": "https://docs.gecotoolbox.io/service/nextcloud-calendar/",
+      "docs": "https://docs.gecotoolbox.io/service/nextcloud/",
       "video": null
     },
     {
@@ -44,7 +44,7 @@
       "description": "A communication and chat platform",
       "url": "https://mattermost.gecotoolbox.io",
       "docs": "https://docs.gecotoolbox.io/service/mattermost/",
-      "video": "https://player.vimeo.com/video/507075103?autoplay=1"
+      "video": null
     },
     {
       "name": "CryptPad",
