@@ -54,15 +54,6 @@
       "url": "https://cryptpad.gecotoolbox.io/drive/",
       "docs": "https://docs.gecotoolbox.io/service/cryptpad/",
       "video": null
-    },
-    {
-      "name": "LimeSurvey",
-      "image": "/static/limesurvey.svg",
-      "labels": ["surveys"],
-      "description": "A form and survey platform",
-      "url": "https://limesurvey.gecotoolbox.io",
-      "docs": "https://docs.gecotoolbox.io/service/limesurvey/",
-      "video": null
     }
   ]
 }
