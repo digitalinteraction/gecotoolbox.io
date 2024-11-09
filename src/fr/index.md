@@ -4,7 +4,7 @@ title: gE.CO toolbox
 subtitle: Mettons la technologie au service des communs!
 action: En savoir plus
 actions:
-  - url: '/about'
+  - url: '/about/'
     text: Aller aux services
     class: is-info
   - url: 'https://docs.gecotoolbox.io/'

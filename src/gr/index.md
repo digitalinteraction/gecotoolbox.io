@@ -3,7 +3,7 @@ layout: home
 title: gE.CO toolbox
 subtitle: Φέρνοντας την τεχνολογία στα κοινά!
 actions:
-  - url: '/about'
+  - url: '/about/'
     text: Μεταβείτε στις υπηρεσίες
     class: is-info
   - url: 'https://docs.gecotoolbox.io/'

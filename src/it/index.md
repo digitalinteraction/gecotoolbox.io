@@ -3,7 +3,7 @@ layout: home
 title: gE.CO toolbox
 subtitle: Portando la tecnologia nei beni comuni!
 actions:
-  - url: '/about'
+  - url: '/about/'
     text: Vai ai servizi
     class: is-info
   - url: 'https://docs.gecotoolbox.io/'
